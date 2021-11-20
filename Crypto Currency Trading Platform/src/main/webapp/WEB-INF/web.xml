@@ -1,0 +1,107 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmployeeServlet</servlet-name>
+  	<display-name>EmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>net.javaguides.employeemanagement.controller.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.login.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BalanceServlet</servlet-name>
+  	<display-name>BalanceServlet</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.login.viewbalance.web.BalanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.logout.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.login.home.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BuyServlet</servlet-name>
+  	<display-name>BuyServlet</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.login.viewbalance.buy.BuyServlet</servlet-class>
+  </servlet>
+<servlet>
+  	<servlet-name>BalanceDao</servlet-name>
+  	<display-name>BalanceDao</display-name>
+  	<description></description>
+  	<servlet-class>next.xadmin.login.viewbalance.database.BalanceDao</servlet-class>
+  </servlet>
+<servlet>
+	<servlet-name>BuyFinal</servlet-name>
+	<display-name>BuyFinal</display-name>
+	<description></description>
+	<servlet-class>next.xadmin.login.viewbalance.buyfinal.BuyFinal</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>BuyServlet1</servlet-name>
+	<display-name>BuyServlet1</display-name>
+	<description></description>
+	<servlet-class>next.xadmin.login.viewbalance.buy.BuyServlet1</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>Buy_sell_Servlet</servlet-name>
+	<display-name>Buy_sell_Servlet</display-name>
+	<description></description>
+	<servlet-class>next.xadmin.login.viewbalance.buy.Buy_sell_Servlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeServlet</servlet-name>
+  	<url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BalanceServlet</servlet-name>
+  	<url-pattern>/BalanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyServlet</servlet-name>
+  	<url-pattern>/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BalanceDao</servlet-name>
+  	<url-pattern>/BalanceDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyFinal</servlet-name>
+  	<url-pattern>/BuyFinal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyServlet1</servlet-name>
+  	<url-pattern>/BuyServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Buy_sell_Servlet</servlet-name>
+  	<url-pattern>/Buy_sell_Servlet</url-pattern>
+  </servlet-mapping>
+</web-app>
